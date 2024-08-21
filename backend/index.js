@@ -19,7 +19,7 @@ app.use(cors({
 }))
 
 app.use("/api",router)
-const port = 8080 || process.env.port
+const port = 8080 || process.env.PORT
 
 connectDB()
 app.listen(port,()=>{

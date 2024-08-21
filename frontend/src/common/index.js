@@ -1,6 +1,7 @@
 import addToCard from "../helpers/addToCard"
 
-const backendDomain ="http://localhost:8080"
+
+const backendDomain =process.env.REACT_APP_BACKEND
 
 const SummaryApi = {
     SignUp:{
